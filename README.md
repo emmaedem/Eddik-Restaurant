@@ -1,1 +1,1 @@
- Eddik-Restaurant
+ Eddik-Restaurant: The word eddik is coined from Edem and Dike. We decided to build a functional restaurant website that will enable  easy services for customers and business owner. its just a test run project to get familiar with frontend development.. 
