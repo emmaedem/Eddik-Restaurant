@@ -1,0 +1,36 @@
+body {
+    font-family: roboto, sans-serif, arial;
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+  padding: 0 0 2px 2px;
+  }
+  h1{
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    
+  }
+  
+  h1{
+    font-size: 30px;
+  }
+  
+  h3, h4 {
+    text-align: center;
+  }
+  
+  image{
+    display: block;
+    max-width: 100%;
+  justify-content: center;
+    height: auto;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+  
