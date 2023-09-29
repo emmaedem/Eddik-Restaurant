@@ -1,0 +1,116 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLgDQU4rowSsH8M3iDVctgtQt3mApviTPSow&usqp=CAU);
+    background-size: cover;
+}
+.container{
+    position: relative;
+    width:80%;
+    margin: auto;
+    height: 100vh;
+}
+.container nav{
+    display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.container nav .logo{
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+.container nav ul li {
+    display:flex;
+    list-style-type: none;
+    margin-right: 10px;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+.container nav ul li:last-child{
+    margin-right: 0%;
+
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: #e7434b;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container nav ul li a:hover{
+    color:#e7434b;
+    text-decoration: underline;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.content .title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+
+}
+.content .title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #cdcddf;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+    animation: fire 15s linear infinite;
+}
+@keyframes fire{
+    0%{
+        background-position: left 0 top 25px;
+    }
+    50%{
+        background-position: left 130px top 35px;
+    }
+    100%{
+        background-position: left 250px top 0;
+    }
+}
+.container .title img{
+    justify-content: center;
+    width: 300px;
+    align-content:center;
+    transform: rotate(0deg);
+}
+.container .text{
+    text-align:center;
+}
+.container.text h4{
+    color: #c1c1c1;
+    font-size: 30px;
+    letter-spacing: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.container .text .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ea1923;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: 0.4s;   
+}
+.container .text .btn:hover{
+    background-color: #fff;
+    color: #ea1923;
+}
