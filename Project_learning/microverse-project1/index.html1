@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sibt-Emma</title>
+</head>
+
+<body>
+    <main id="main" style="text-align: center;">
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <p>The man who saved a billion lives</p>
+
+        <div id="img-div">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" id="image"
+                style="max-width: 100%; margin: auto; display: block;">
+                <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to
+                    increase wheat yields - part of his life-long war on hunger.</figcaption>
+                <h2 id="tribute-info">Here's a time line of Dr. Borlaug's life:</h2>
+                <a href="" id="tribute-link" target="_blank"><b>1914</b> - Born in Cresco, Iowa</a> <br>
+                <a href="" id="tribute-link" target="_blank"><b>1933</b> - Leaves his family's farm to attend the University
+        </div>
+    </main>
+</body>
+
+</html>
